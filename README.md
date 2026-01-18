@@ -1,4 +1,4 @@
-# ⚔️ KoupaingsUHC - Custom Minecraft Game Mode
+# ⚔️ KoupaingsUHC - Custom Humoristic Minecraft Game Mode
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spigot](https://img.shields.io/badge/API-Spigot_1.8-FFCA28?style=for-the-badge&logo=minecraft&logoColor=black)
@@ -6,7 +6,7 @@
 
 ## 🎮 Overview
 
-**KoupaingsUHC** is a fully custom Minecraft plugin designed to run automated **Ultra Hardcore (UHC)** matches. It features a complex role-playing mechanic inspired by popular anime/pop-culture references, specifically tailored for a private gaming event.
+**KoupaingsUHC** is a fully custom Minecraft plugin designed to run automated **Ultra Hardcore (UHC)** matches. It features a complex role-playing mechanic inspired by my friend references, specifically tailored for a private gaming event.
 
 This project demonstrates advanced usage of **Object-Oriented Programming (OOP)** to manage game states, player interactions, and ability polymorphism.
 
