@@ -31,8 +31,22 @@ To manage the diversity of roles without code duplication, the project uses a st
 ```java
 // Example of the structure logic
 public class Alecsix extends RolesImpl {
+    public Alecsix(UUID uuid, Camp camp) {
+        super(uuid, camp);
+    }
+
     @Override
-    public void onDayStart() {
-        // Specific logic for this character
+    public void initialize() {
+        verif();
     }
 }
+
+```
+
+The excerpt omits imports; see `src/fr/nozkay/scenarios/manager/roles/Gentils/Alecsix.java` for the complete implementation.
+
+## Development prerequisites
+
+`KoupaingsUHC.iml` references Spigot 1.8.8, `CCUHC-1.0.0` and `CCAPI-1.0.2`. The sources also use CraftBukkit/NMS `v1_8_R3`, so the server internals must match. These dependencies are not bundled and no Maven/Gradle build is provided. Configure the IntelliJ module with the required libraries before packaging a JAR.
+
+Compilation and a live UHC match were not executed during this documentation check.
